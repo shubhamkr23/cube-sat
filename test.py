@@ -13,7 +13,7 @@ udp_port = 12345  # Should be the same as the port in the robot program
 BUFFER_SIZE = 1024
 sock.bind((udp_host, udp_port))  # Bind the socket to the host and port
 
-url = 'http://192.168.191.88:8080/video' #Replace with your own video url and add /video to the link
+url = 'http://192.168.211.88:8080/video' #Replace with your own video url and add /video to the link
 
 # Initialize robot_speed with a default value
 robot_speed = 40
